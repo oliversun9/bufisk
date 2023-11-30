@@ -22,6 +22,7 @@ fi
 # make release
 # unset RELEASE_MINISIGN_PRIVATE_KEY
 # unset RELEASE_MINISIGN_PRIVATE_KEY_PASSWORD
+mkdir -p .build/release/bufisk/assets
 echo "placeholder" > .build/release/bufisk/assets/placeholder.txt
 
 # The second v${VERSION} is the tag, see https://cli.github.com/manual/gh_release_create

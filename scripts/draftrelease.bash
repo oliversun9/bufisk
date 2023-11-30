@@ -16,7 +16,7 @@ if [[ "${VERSION}" == v* ]]; then
   exit 1
 fi
 
-make bufrelease
+make release
 unset RELEASE_MINISIGN_PRIVATE_KEY
 unset RELEASE_MINISIGN_PRIVATE_KEY_PASSWORD
 

@@ -2,7 +2,8 @@
 
 set -euo pipefail
 
-DIR="$(CDPATH= cd "$(dirname "${0}")/../../.." && pwd)"
+DIR="$(CDPATH= cd "$(dirname "${0}")/.." && pwd)"
+echo "DIR is $DIR"
 cd "${DIR}"
 
 # We already have set -u, but want to fail early if a required variable is not set.

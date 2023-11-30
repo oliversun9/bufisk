@@ -26,6 +26,6 @@ mkdir -p .build/release/bufisk/assets
 echo "placeholder" > .build/release/bufisk/assets/placeholder.txt
 
 # The second v${VERSION} is the tag, see https://cli.github.com/manual/gh_release_create
-url=$(gh release create --draft --notes "${release_notes}" --title "v${VERSION}" "v${VERSION}" .build/release/bufisk/assets/*)
+url=$(gh release create --draft --notes "replace me" --title "v${VERSION}" "v${VERSION}" .build/release/bufisk/assets/*)
 
 echo "Release ${VERSION} has been drafted: ${url}"
